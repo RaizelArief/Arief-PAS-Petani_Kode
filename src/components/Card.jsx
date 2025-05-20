@@ -15,8 +15,7 @@ const Card = () => {
 
       {/* CARD */}
       <div className="m-5 grid grid-cols-1 md:grid-cols-3 gap-4">
-
-        <div className="bg-white rounded-2xl gap-3 shadow-lg w-auto h-60px p-6 hover:shadow-xl transition flex items-start">
+        <div className="bg-white rounded-2xl shadow-lg p-6  gap-3 hover:shadow-xl transition flex items-start">
           <div className="h-10 w-12 flex justify-center items-center rounded-xl">
             <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
               <svg
@@ -47,7 +46,7 @@ const Card = () => {
         </div>
         {/* card 2 */}
 
-        <div className="bg-white rounded-2xl px-6 py-8 shadow-lg gap-3 hover:shadow-xl transition flex items-start">
+        <div className="bg-white rounded-2xl shadow-lg p-6  gap-3 hover:shadow-xl transition flex items-start">
           <span class="inline-flex items-center justify-center p-2 bg-orange-500 rounded-md shadow-lg">
             <svg
               class="h-6 w-6 stroke-white"
@@ -74,12 +73,22 @@ const Card = () => {
           </div>
         </div>
         {/* Card 3 */}
-        <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition flex items-start">
-          <img
-            src={Card1}
-            alt="Basic Programming"
-            className="bg-violet-700  border-white h-10 w-10 mr-4 rounded-x"
-          />
+        <div className="bg-white rounded-2xl shadow-lg p-6  gap-3 hover:shadow-xl transition flex items-start">
+          <span class="inline-flex items-center justify-center p-2 bg-cyan-500 rounded-md shadow-lg">
+            <svg
+              class="h-6 w-6 stroke-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentcolor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+              ></path>
+            </svg>
+          </span>
 
           <div className="flex-1">
             <h3 className="text-lg font-semibold mb-1 text-gray-900">
